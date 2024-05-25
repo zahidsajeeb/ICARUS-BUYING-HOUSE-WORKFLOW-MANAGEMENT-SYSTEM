@@ -17,6 +17,7 @@
                             <li><router-link to="/settings/buyer" active-class="active" exact class="nav-item nav-link"><i class="las la-chevron-right"></i><span> Buyer</span></router-link></li>
                             <li><router-link to="/commercial_order" active-class="active" exact class="nav-item nav-link"><i class="las la-chevron-right"></i><span> Order Form</span></router-link></li>
                             <li><router-link to="/commercial_order_list" active-class="active" exact class="nav-item nav-link"><i class="las la-chevron-right"></i><span> Order List</span></router-link></li>
+                            <li><router-link to="/order_report" active-class="active" exact class="nav-item nav-link"><i class="las la-chevron-right"></i><span> Order Report</span></router-link></li>
                         </ul>
                     </li>
                     <li v-if="role.match('Fabric')" class="submenu">
@@ -24,6 +25,7 @@
                         <ul style="display:block !important;">
                             <li><router-link to="/settings/buyer" active-class="active" exact class="nav-item nav-link"><i class="las la-chevron-right"></i><span> Buyer</span></router-link></li>
                             <li><router-link to="/fabric_order_list" active-class="active" exact class="nav-item nav-link"><i class="las la-chevron-right"></i><span> Order List</span></router-link></li>
+                            <li><router-link to="/order_report" active-class="active" exact class="nav-item nav-link"><i class="las la-chevron-right"></i><span> Order Report</span></router-link></li>
                         </ul>
                     </li>
                     <li v-if="role.match('Trims')" class="submenu">
@@ -31,6 +33,7 @@
                         <ul style="display:block !important;">
                             <li><router-link to="/settings/buyer" active-class="active" exact class="nav-item nav-link"><i class="las la-chevron-right"></i><span> Buyer</span></router-link></li>
                             <li><router-link to="/trims_order_list" active-class="active" exact class="nav-item nav-link"><i class="las la-chevron-right"></i><span> Order List</span></router-link></li>
+                            <li><router-link to="/order_report" active-class="active" exact class="nav-item nav-link"><i class="las la-chevron-right"></i><span> Order Report</span></router-link></li>
                         </ul>
                     </li>
                     <li v-if="role.match('Merchandiser')" class="submenu">
@@ -38,6 +41,7 @@
                         <ul style="display:block !important;">
                             <li><router-link to="/settings/buyer" active-class="active" exact class="nav-item nav-link"><i class="las la-chevron-right"></i><span> Buyer</span></router-link></li>
                             <li><router-link to="/merchant_order_list" active-class="active" exact class="nav-item nav-link"><i class="las la-chevron-right"></i><span> Order List</span></router-link></li>
+                            <li><router-link to="/order_report" active-class="active" exact class="nav-item nav-link"><i class="las la-chevron-right"></i><span> Order Report</span></router-link></li>
                         </ul>
                     </li>
                     <li v-if="role.match('Production')" class="submenu">
@@ -45,6 +49,7 @@
                         <ul style="display:block !important;">
                             <li><router-link to="/settings/buyer" active-class="active" exact class="nav-item nav-link"><i class="la la-gear"></i><span> Buyer</span></router-link></li>
                             <li><router-link to="/production_order_list" active-class="active" exact class="nav-item nav-link"><i class="las la-chevron-right"></i><span> Order List</span></router-link></li>
+                            <li><router-link to="/order_report" active-class="active" exact class="nav-item nav-link"><i class="las la-chevron-right"></i><span> Order Report</span></router-link></li>
                         </ul>
                     </li>
                 </ul>
